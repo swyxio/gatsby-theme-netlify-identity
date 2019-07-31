@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/sw-yx/gatsby-theme-netlify-identity.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
