@@ -9,7 +9,7 @@ Features:
 
 - ✅Add Netlify Identity Authentication to any Gatsby app
 - 🕵🏼‍Shadow only the components you need to add authentication to
-- ♿ Accessible modal component that doesn't affect UI
+- ♿ Accessible modal component that doesn't require a UI redesign unless you want to
 - 💁🏼‍♂️Drop down to use the headless [react-netlify-identity](https://github.com/sw-yx/react-netlify-identity) API if you want to write your own auth UI
 
 <img src="https://user-images.githubusercontent.com/6764957/62212389-9d661c00-b36e-11e9-9afd-ca51e611a05d.gif" width=400 />
