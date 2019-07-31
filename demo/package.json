@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "gatsby": "^2.13.1",
+    "gatsby-plugin-manifest": "^2.2.4",
+    "gatsby-plugin-offline": "^2.2.4",
     "gatsby-theme-netlify-identity": "*",
     "gatsby-theme-tyra": "*",
     "react": "^16.8.6",

@@ -31,7 +31,7 @@ To use this theme in your Gatsby sites, follow these instructions:
 
 To ensure your Theme Jam submission [follows the rules](https://themejam.gatsbyjs.org/rules), use this checklist:
 
-- [ ] Use our [accessibility guide][a11y] to ensure your site meets our accessibility standards
+- [x] Use our [accessibility guide][a11y] to ensure your site meets our accessibility standards
 - [ ] Run a performance audit using [Lighthouse][] and/or [WebPageTest][]
 - [ ] Set up a live demo using [Netlify][] or [GitHub Pages][]
 - [ ] Add installation documentation to the README
