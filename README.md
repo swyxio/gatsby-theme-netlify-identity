@@ -4,6 +4,15 @@ This repo is a yarn workspace.
 
 **Live Demo**: https://gatsby-theme-netlify-identity.netlify.com/
 
+Features:
+
+- ✅Add Netlify Identity Authentication to any Gatsby app
+- 🕵🏼‍Shadow only the components you need to add authentication to
+- ♿ Accessible modal component that doesn't affect UI
+- 💁🏼‍♂️Drop down to use the headless [react-netlify-identity](https://github.com/sw-yx/react-netlify-identity) API if you want to write your own auth UI
+
+<img src="https://user-images.githubusercontent.com/6764957/62211853-9094f880-b36d-11e9-8b37-893ead7c9876.png" width=400 />
+
 ## How to Use In Your Gatsby App
 
 > ⚠️ Make sure to enable Netlify Identity on your site!
