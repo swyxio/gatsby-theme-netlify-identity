@@ -10,5 +10,5 @@
     "version": "yarn workspace gatsby-theme-netlify-identity version",
     "publish": "yarn workspace gatsby-theme-netlify-identity npm publish"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
