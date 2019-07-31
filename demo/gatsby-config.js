@@ -1,7 +1,7 @@
 // * See: https://www.gatsbyjs.org/docs/gatsby-config/
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Theme Netlify Identity",
+    title: "Tyra + Netlify Demo",
   },
   plugins: [
     "gatsby-theme-tyra",

@@ -19,6 +19,7 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "gatsby-theme": "^0.0.6",
     "prettier": "^1.18.2"
   }
 }

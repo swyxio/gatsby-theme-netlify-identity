@@ -8,7 +8,9 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "version": "auto-changelog -p --template keepachangelog && git add .",
+    "prepublishOnly": "git push && git push --tags && gh-release"
   },
   "peerDependencies": {
     "gatsby": "^2.13.1",

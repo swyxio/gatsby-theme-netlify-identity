@@ -4,7 +4,7 @@ import IdentityModal, {
 } from "react-netlify-identity-widget"
 import "react-netlify-identity-widget/styles.css" // delete if you want to bring your own CSS
 
-const Layout = ({ children }) => {
+export default function AuthBtn() {
   const identity = useIdentityContext()
   const [dialog, setDialog] = React.useState(false)
   const name =
@@ -17,35 +17,20 @@ const Layout = ({ children }) => {
 
   console.log({ identity })
   const isLoggedIn = identity && identity.isLoggedIn
+
   return (
     <>
-      <nav style={{ background: "green" }}>
-        {" "}
-        Login Status:
-        <button className="btn" onClick={() => setDialog(true)}>
-          {isLoggedIn ? `Hello ${name}, Log out here!` : "LOG IN"}
-        </button>
-      </nav>
-      <main>{children}</main>
+      {isLoggedIn && `Welcome ${name}`}
+      <button
+        onClick={() => setDialog(true)}
+        className="sans-serif ttu light-red f5 no-underline dn dib-l"
+      >
+        {isLoggedIn ? "LOG OUT" : "SIGN UP/LOGIN"}
+      </button>
       <IdentityModal
         showDialog={dialog}
         onCloseDialog={() => setDialog(false)}
       />
     </>
-  )
-}
-
-export default function Home() {
-  return (
-    <main>
-      <h1> hello world</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-        maiores. Dolorem in corrupti ab molestias nostrum voluptate praesentium
-        veritatis doloremque maxime non amet sequi harum neque iste commodi,
-        odio minus.
-      </p>
-      <Layout />
-    </main>
   )
 }
