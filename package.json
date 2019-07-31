@@ -1,7 +1,10 @@
 {
   "private": true,
   "workspaces": [
-    "theme",
+    "gatsby-theme-netlify-identity",
     "demo"
-  ]
+  ],
+  "scripts": {
+    "start": "yarn workspace demo start"
+  }
 }
