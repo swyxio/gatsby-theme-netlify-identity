@@ -14,6 +14,7 @@
   "dependencies": {
     "gatsby": "^2.13.1",
     "gatsby-plugin-manifest": "^2.2.4",
+    "gatsby-plugin-netlify": "^2.1.3",
     "gatsby-plugin-offline": "^2.2.4",
     "gatsby-theme-netlify-identity": "*",
     "gatsby-theme-tyra": "*",
