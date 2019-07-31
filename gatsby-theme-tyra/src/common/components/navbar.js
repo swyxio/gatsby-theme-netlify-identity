@@ -93,7 +93,7 @@ export default class Navbar extends React.Component {
             >
               <div className="w-100 mw8 flex justify-between justify-around-l items-center ph4 pa2-ns">
                 <button
-                  aria-label="menu"
+                  ariaLabel="menu"
                   className="ttu tracked dark-gray f4 no-underline bn bg-transparent pointer"
                   onClick={this.toggleMenu}
                 >
