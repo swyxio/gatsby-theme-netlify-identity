@@ -23,7 +23,7 @@ export default function AuthBtn() {
       {isLoggedIn && `Welcome ${name}`}
       <button
         onClick={() => setDialog(true)}
-        className="sans-serif ttu light-red f5 no-underline dn dib-l"
+        className="sans-serif ttu red f5 no-underline dn dib-l"
       >
         {isLoggedIn ? "LOG OUT" : "SIGN UP/LOGIN"}
       </button>
