@@ -2,6 +2,7 @@
   "private": true,
   "workspaces": [
     "gatsby-theme-netlify-identity",
+    "gatsby-theme-tyra",
     "demo"
   ],
   "scripts": {

@@ -1,0 +1,48 @@
+{
+  "name": "gatsby-theme-tyra",
+  "description": "Gatsby Theme Tyra",
+  "license": "MIT",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "auto-changelog": "^1.14.1",
+    "gatsby": "^2.13.1",
+    "gh-release": "^3.5.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "gatsby-image": "^2.0.33",
+    "gatsby-plugin-feed": "^2.0.15",
+    "gatsby-plugin-google-analytics": "^2.0.17",
+    "gatsby-plugin-page-creator": "^2.1.5",
+    "gatsby-plugin-react-helmet": "^3.0.9",
+    "gatsby-plugin-sharp": "^2.0.28",
+    "gatsby-plugin-sitemap": "^2.0.9",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-remark-copy-linked-files": "^2.0.10",
+    "gatsby-remark-images": "^3.0.9",
+    "gatsby-source-filesystem": "^2.0.26",
+    "gatsby-transformer-remark": "^2.3.4",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.5.0",
+    "tachyons": "^4.11.1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin"
+  ]
+}

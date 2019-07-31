@@ -4,6 +4,7 @@ module.exports = {
     title: "Gatsby Theme Netlify Identity",
   },
   plugins: [
+    "gatsby-theme-tyra",
     {
       resolve: `gatsby-theme-netlify-identity`,
       options: {

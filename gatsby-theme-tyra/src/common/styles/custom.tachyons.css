@@ -1,0 +1,120 @@
+.sans-serif {
+  font-family: "Karla", sans-serif !important;
+}
+
+.serif {
+  font-family: "Lora", serif !important;
+}
+
+.display {
+  font-family: "Playfair Display", serif;
+}
+
+.h0 {
+  height: 0;
+}
+
+.w0 {
+  width: 0;
+}
+
+.vh-7 {height: 7vh;}
+.vh-93 {height: 93vh;}
+
+.ease {
+  transition: all .4s ease;
+}
+
+.fadeIn {
+  animation: fadeIn .4s normal forwards;
+}
+
+.fadeOut {
+  animation: fadeOut .2s normal forwards;
+}
+
+.menu__item { visibility: none; }
+
+@media screen and (min-width: 60em) {
+  .tl-75-l {
+    transform: translateY(-75%);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  1% {
+    visibility: visible;
+    opacity: 0
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  99% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+/* Article Styles */
+
+/* Rhythm */
+.article__container p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  line-height: 1.6em;
+}
+
+
+/* Styles for quotes */
+.article__container blockquote {
+  font-style: italic;
+  text-align: center;
+  padding: 0px;
+}
+
+/* Styles for links */
+.article__container a {
+  color: #ff725c;
+  text-decoration: none;
+}
+
+.article__container a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for headers */
+.article__container h1,
+.article__container h2,
+.article__container h3,
+.article__container h4,
+.article__container h5,
+.article__container h6 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+}
+
+/* Styles for code */
+.article__container pre {
+  padding: .5rem;
+  font-size: 1rem;
+  background-color: #eee;
+  white-space: pre-wrap;
+}
