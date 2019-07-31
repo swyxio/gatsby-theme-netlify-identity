@@ -8,6 +8,5 @@
     "start": "yarn workspace demo start",
     "build": "yarn workspace demo build",
     "version": "yarn workspace gatsby-theme-netlify-identity version"
-  },
-  "version": "0.0.3"
+  }
 }
