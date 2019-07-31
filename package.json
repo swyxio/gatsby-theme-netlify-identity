@@ -5,6 +5,7 @@
     "demo"
   ],
   "scripts": {
-    "start": "yarn workspace demo start"
+    "start": "yarn workspace demo start",
+    "build": "yarn workspace demo build"
   }
 }
