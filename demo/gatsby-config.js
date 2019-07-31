@@ -11,7 +11,6 @@ module.exports = {
         url: `https://gatsby-theme-netlify-identity.netlify.com/`, // required! make sure to enable Netlify Identity
       },
     },
-    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -23,5 +22,6 @@ module.exports = {
         display: `standalone`,
       },
     },
+    `gatsby-plugin-offline`,
   ],
 }
