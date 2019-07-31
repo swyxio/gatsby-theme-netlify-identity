@@ -2,6 +2,8 @@
 
 This repo is a yarn workspace.
 
+**Live Demo**: https://gatsby-theme-netlify-identity.netlify.com/
+
 ## How to Use In Your Gatsby App
 
 > ⚠️ Make sure to enable Netlify Identity on your site!
@@ -65,6 +67,10 @@ const Layout = ({ children }) => {
 
 export default Layout
 ```
+
+## Tyra
+
+this project also converted https://github.com/madelyneriksen/gatsby-starter-tyra into a theme.
 
 ## Local Development
 
