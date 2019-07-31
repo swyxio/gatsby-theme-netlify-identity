@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ url }) => ({
   // // not needed for now
   // siteMetadata: {
   //   title: "Gatsby Theme Jam Example Submission",
@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-identity`,
       options: {
-        url: `https://your-identity-instance-here.netlify.com/`, // required!
+        url,
       },
     },
   ],
-}
+})
