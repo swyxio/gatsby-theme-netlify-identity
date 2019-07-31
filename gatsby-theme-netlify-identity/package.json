@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-theme-netlify-identity",
+  "author": "swyx <swyx@dontemail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sw-yx/gatsby-theme-netlify-identity.git"
+  },
+  "version": "0.0.3",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "version": "auto-changelog -p --template keepachangelog && git add .",
+    "prepublishOnly": "git push && git push --tags && gh-release"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "auto-changelog": "^1.14.1",
+    "gatsby": "^2.13.1",
+    "gh-release": "^3.5.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "@reach/dialog": "^0.2.9",
+    "@reach/tabs": "^0.1.6",
+    "@reach/visually-hidden": "^0.1.4",
+    "gatsby-plugin-netlify-identity": "^0.0.3",
+    "react-netlify-identity-widget": "^0.1.4"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "netlify",
+    "netlify-identity"
+  ]
+}
